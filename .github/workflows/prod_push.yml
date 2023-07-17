@@ -32,5 +32,5 @@ jobs:
       with:
         args: |
           --all \
-          --target dev/${{ github.event.inputs.addon }}
+          --target dev/${{ github.event.inputs.addon }} \
           --docker-hub hiosdra
