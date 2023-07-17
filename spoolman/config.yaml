@@ -1,5 +1,5 @@
 name: Spoolman
-version: '0.1.1'
+version: '0.1.2'
 slug: spoolman
 description: 3D printing filament spool manager
 boot: auto
