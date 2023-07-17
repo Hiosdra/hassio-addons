@@ -1,0 +1,17 @@
+{
+    "name": "Spoolman",
+    "version": "0.1.0",
+    "slug": "spoolman",
+    "description": "3D printing filament spool manager",
+    "boot": "auto",
+    "auto_update": false,
+    "url": "https://github.com/Hiosdra/hassio-addons/spoolman",
+    "arch": ["aarch64", "amd64", "armhf", "i386"],
+    "options": {},
+    "schema": {},
+    "image": "yourusername/spoolman-addon",
+    "ports": {
+      "8000/tcp": 7912
+    }
+  }
+  
