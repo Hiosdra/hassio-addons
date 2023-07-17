@@ -1,5 +1,5 @@
 name: Spoolman
-version: '0.1.0'
+version: '0.1.1'
 slug: spoolman
 description: 3D printing filament spool manager
 boot: auto
@@ -8,8 +8,6 @@ url: https://github.com/Hiosdra/hassio-addons
 arch: 
   - aarch64
   - amd64
-  - armhf
-  - i386
 options: {}
 schema: {}
 image: hiosdra/spoolman-addon
