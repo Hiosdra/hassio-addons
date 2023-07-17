@@ -13,3 +13,4 @@ schema: {}
 image: hiosdra/spoolman-addon
 ports:
   8000/tcp: 7912
+  
