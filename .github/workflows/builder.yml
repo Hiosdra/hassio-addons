@@ -5,7 +5,12 @@ env:
   MONITORED_FILES: "build.yaml config.yaml Dockerfile rootfs"
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   init:
@@ -18,9 +23,9 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3.5.3
 
-      #- name: Get changed files
-      #  id: changed_files
-      #  uses: jitterbit/get-changed-files@v1
+      - name: Get changed files
+        id: changed_files
+        uses: jitterbit/get-changed-files@v1
 
       - name: Find add-on directories
         id: addons
